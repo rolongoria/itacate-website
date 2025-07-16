@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-Poiret: "Poiret One", sans-serif;
+  --font-Pacifico: "Pacifico", cursive;
+  --font-Edu: "Edu NSW ACT Cursive", cursive;
+
+  --color-itacate-rosa: #d6006d;
+}
