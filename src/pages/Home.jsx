@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center py-6 m-3">
           <img
-            src="./src/assets/chilaquiles 1.avif"
+            src="/src/assets/chilaquiles 1.avif"
             alt="Chilaquiles 1"
             className="max-w-full h-auto rounded shadow-lg"
           />
