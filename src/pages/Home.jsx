@@ -1,5 +1,7 @@
 import React from "react";
 import videoFile from "/src/assets/video.mp4";
+import chilaquiles1 from "/src/assets/chilaquiles 1.avif";
+import chilaquiles2 from "/src/assets/chilaquiles 2.avif";
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center py-6 m-3">
           <img
-            src="/src/assets/chilaquiles 1.avif"
+            src={chilaquiles1}
             alt="Chilaquiles 1"
             className="max-w-full h-auto rounded shadow-lg"
           />
@@ -53,8 +55,8 @@ export default function Home() {
 
         <div className="flex justify-center">
           <img
-            src="./src/assets/chilaquiles 2.avif"
-            alt="Chilaquiles 1"
+            src={chilaquiles2}
+            alt="Chilaquiles 2"
             className="max-w-full h-auto rounded shadow-lg"
           />
         </div>
