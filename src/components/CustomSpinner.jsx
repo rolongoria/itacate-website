@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+
 export default function CustomSpinner() {
   return (
     <div className="w-full h-[calc(100vh-250px)] flex items-center justify-center">
@@ -7,7 +9,7 @@ export default function CustomSpinner() {
 
         {/* Your image in the center */}
         <img
-          src="./src/assets/logo.png"
+          src={logo}
           alt="Loading"
           className="absolute inset-2 object-contain w-16 h-16 "
         />
